@@ -10,6 +10,7 @@ import { TypographyComponent } from "../../pages/typography/typography.component
 import { CarComponent } from "src/app/pages/car/car.component";
 import { ColorComponent } from "src/app/pages/color/color.component";
 import { BrandComponent } from "src/app/pages/brand/brand.component";
+import { CustomerComponent } from "src/app/pages/customer/customer.component";
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 export const AdminLayoutRoutes: Routes = [
@@ -17,6 +18,7 @@ export const AdminLayoutRoutes: Routes = [
   { path: "icons", component: IconsComponent },
   { path: "car", component: CarComponent },
   { path: "color", component: ColorComponent },
+  { path: "customer", component: CustomerComponent },
   { path: "brand", component: BrandComponent },
   { path: "maps", component: MapComponent },
   { path: "notifications", component: NotificationsComponent },

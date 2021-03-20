@@ -10,6 +10,7 @@ import { IconsComponent } from "../../pages/icons/icons.component";
 import { CarComponent } from "../../pages/car/car.component";
 import { ColorComponent } from "../../pages/color/color.component";
 import { BrandComponent } from "../../pages/brand/brand.component";
+import { CustomerComponent } from "../../pages/customer/customer.component";
 import { MapComponent } from "../../pages/map/map.component";
 import { NotificationsComponent } from "../../pages/notifications/notifications.component";
 import { UserComponent } from "../../pages/user/user.component";
@@ -34,6 +35,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     IconsComponent,
     CarComponent,
     BrandComponent,
+    CustomerComponent,
     ColorComponent,
     TypographyComponent,
     NotificationsComponent,

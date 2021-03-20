@@ -50,6 +50,13 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-bell-55",
     class: ""
   },
+  {
+    path: "/customer",
+    title: "Customers",
+    rtlTitle: "إخطارات",
+    icon: "icon-bell-55",
+    class: ""
+  },
 
   {
     path: "/user",
