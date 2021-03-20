@@ -1,0 +1,33 @@
+<div class=" content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="title">Colors</h3>
+        </div>
+    </div>
+
+        <div class="card-body">
+          <div class="row">        
+            <div class="mb-3 row">
+                <div class="col-auto">
+                    <select class="form-select form-select-col-md-8">
+                    <option *ngFor="let color of colors" [value]="color.id" >{{color.colorName}}</option>
+                    </select>
+                </div>
+                    <div class="col-auto">
+                        <button class="btn btn-success">Filtrele</button>
+                    </div>
+            </div>
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    
+
